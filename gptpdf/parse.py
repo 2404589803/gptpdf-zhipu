@@ -212,7 +212,7 @@ def _parse_pdf_to_images(pdf_path, output_dir='./'):
     return image_infos
 
 
-def _gpt_parse_images(image_infos, output_dir='./', api_key=None, base_url=None, model='gpt-4o', verbose=False, gpt_worker=1):
+def _gpt_parse_images(image_infos, output_dir='./', api_key=None, base_url=None, model='glm-4v', verbose=False, gpt_worker=1):
     """
     parse images to markdown content
     :param image_infos: [(page_image, rect_images)]

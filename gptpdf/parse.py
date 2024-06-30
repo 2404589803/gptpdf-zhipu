@@ -263,7 +263,7 @@ def _gpt_parse_images(image_infos, output_dir='./', api_key=None, base_url=None,
     return '\n\n'.join(contents)
 
 
-def parse_pdf(pdf_path, output_dir='./', api_key=None, base_url=None, model='gpt-4o', verbose=False, gpt_worker=1):
+def parse_pdf(pdf_path, output_dir='./', api_key=None, base_url=None, model='glm-4v', verbose=False, gpt_worker=1):
     """
     parse pdf file to markdown file
     :param pdf_path: pdf file path
